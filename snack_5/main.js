@@ -22,3 +22,5 @@ function cacao(array_5 , param_a , param_b ) {
 
     return  intermediateValue;
 } 
+
+console.log(newArray);
