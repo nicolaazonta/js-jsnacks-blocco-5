@@ -9,47 +9,47 @@ const zucchine = [
     },
     {
         varietà: 'varieta1',
-        peso: 400,
+        peso: 445,
         lunghezza: 100
     },
     {
         varietà: 'varieta1',
-        peso: 400,
+        peso: 423,
         lunghezza: 100
     },
     {
         varietà: 'varieta1',
-        peso: 400,
+        peso: 359,
         lunghezza: 100
     },
     {
         varietà: 'varieta1',
-        peso: 400,
+        peso: 985,
         lunghezza: 100
     },
     {
         varietà: 'varieta1',
-        peso: 400,
+        peso: 321,
         lunghezza: 100
     },
     {
         varietà: 'varieta1',
-        peso: 400,
+        peso: 903,
         lunghezza: 100
     },
     {
         varietà: 'varieta1',
-        peso: 400,
+        peso: 222,
         lunghezza: 100
     },
     {
         varietà: 'varieta1',
-        peso: 400,
+        peso: 111,
         lunghezza: 100
     },
     {
         varietà: 'varieta1',
-        peso: 400,
+        peso: 453,
         lunghezza: 100
     }
 ];
@@ -58,8 +58,8 @@ const zucchine = [
 let sum = 0;
 
 zucchine.forEach(zucchina => {
-    console.log(zucchina.peso);
+    //console.log(zucchina.peso);
     sum += zucchina.peso;
 });
 
-console.log(sum);
+console.log(sum + ' g');
