@@ -11,8 +11,9 @@ const newArray = [cacao(array_5 , param_a , param_b)];
 
 function cacao(array_5 , param_a , param_b ) {
     let intermediateValue = [];
-    for(let i=0, i< param_b - param_a, i++){
-        let valueX = param_b - 1;
+    let valueX = 0;
+    for(let i = 0; i < param_b - param_a; i++){
+        valueX = param_b - 1;
     }
 
 
